@@ -17,7 +17,6 @@ images.forEach((x, i) => {
 	x.src = "load" + i + ".gif";
 });
 
-
 var index = 0;
 async function Animate() {
 	document.querySelector("#loader").src = images[index].src;
